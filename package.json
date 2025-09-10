@@ -1,0 +1,27 @@
+{
+  "name": "test_standard-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:first": "standard-version --first-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usernamedd/test_standard-version.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usernamedd/test_standard-version/issues"
+  },
+  "homepage": "https://github.com/usernamedd/test_standard-version#readme",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
